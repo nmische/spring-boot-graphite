@@ -5,8 +5,6 @@ This is quick and dirty example spring boot applicaiton that ships metrics to St
 
 ## Building/Running
 
-NOTE: I am not an experienced Maven user so this project uses Make to drive Maven.
-
 To build and run the app via Docker/Docker Compose:
 
 ```
