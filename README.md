@@ -7,7 +7,7 @@ This is quick and dirty example spring boot applicaiton that ships metrics to St
 
 NOTE: I am not an experienced Maven user so this project uses Make to drive Maven.
 
-To build the app with a local JDK and run the example via Docker Compose:
+To build and run the app via Docker/Docker Compose:
 
 ```
 make run
@@ -15,7 +15,7 @@ make run
 
 Once the app has started you should be able to see the Graphite UI at http://localhost.
 
-You can then issue request to the application to generate metrics:
+You can then issue request to the demo application to generate metrics:
 
 ```
 curl --request GET 'http://localhost:8080/echo-get?msg=Test%20Get&latency=0&status=200'
